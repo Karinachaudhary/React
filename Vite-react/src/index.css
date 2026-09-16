@@ -1,12 +1,13 @@
 body {
-  width: 100%
+  width: 100%;
+  /* background-color: black; */
 }
 .parent{
-  padding: 20px;
-  /* display: flex; */
+  display: flex;
+  gap:30px;
   /* flex-wrap: wrap; */
-  height: 100vh;
-  background-color: orchid;
+  
+  
 }
 .card{
   background: aliceblue;
@@ -17,11 +18,9 @@ body {
   flex-direction: column;
   border-radius: 20%;
   justify-content: space-between;
+  align-items: center;
 }
 .top{
-  
-display: flex;
-align-items: center;
   justify-content:space-between;
   margin-bottom: 40px;
 
@@ -33,9 +32,32 @@ align-items: center;
   object-fit: cover;
   border-radius: 50%;
   border: 1px solid blueviolet;
-  padding: bottom 2px;
+  padding: 2px;
 }
 .top button{
   display:flex;
   align-items: center;
+  border: 1px solid #dadada;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 5px;
+  gap : 3px;
 }
+.center{
+  
+}
+.center h3{
+  font-size:18px;
+  font-weight: 500;
+}
+.center h2{
+  font-size: 20px;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #b1b1b1;
+  padding-top: 10px;
+}
+
