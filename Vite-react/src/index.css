@@ -1,11 +1,12 @@
 body {
   width: 100%;
-  /* background-color: black; */
+  background-color: black;
 }
 .parent{
   display: flex;
   gap:30px;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
+  height: 100vh;
   
   
 }
@@ -43,9 +44,7 @@ body {
   border-radius: 5px;
   gap : 3px;
 }
-.center{
-  
-}
+
 .center h3{
   font-size:18px;
   font-weight: 500;
